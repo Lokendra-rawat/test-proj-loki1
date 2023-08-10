@@ -1,31 +1,5 @@
 import React from "react";
 
-// Sample data for workout plan
-const workoutPlan = [
-  {
-    name: "Push-ups",
-    sets: 3,
-    repetitions: 10,
-    instructions:
-      "Keep your body straight and lower yourself until your chest almost touches the floor.",
-  },
-  {
-    name: "Squats",
-    sets: 4,
-    repetitions: 12,
-    instructions:
-      "Stand with your feet shoulder-width apart and lower your hips until your thighs are parallel to the ground.",
-  },
-  {
-    name: "Plank",
-    sets: 2,
-    repetitions: 30,
-    instructions:
-      "Support your body on your forearms and toes, keeping your body in a straight line from head to heels.",
-  },
-  // Add more sample exercises here...
-];
-
 const WorkoutPlan = ({ workoutPlan }) => {
   return (
     <div className="bg-gray-100">
@@ -64,13 +38,5 @@ const WorkoutPlan = ({ workoutPlan }) => {
     </div>
   );
 };
-
-// const App = () => {
-//   return (
-//     <div className="bg-gray-100">
-//       <WorkoutPlan workoutPlan={sampleWorkoutPlan} />
-//     </div>
-//   );
-// };
 
 export default WorkoutPlan;
