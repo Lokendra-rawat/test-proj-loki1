@@ -52,7 +52,7 @@ export const fetchData = async (data) => {
     };
     const headers = {
       Authorization:
-        "Bearer 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",
+        "Bearer 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",
       "Content-Type": "application/json",
     };
     let response = await axios.post(url, jsonData, { headers });
