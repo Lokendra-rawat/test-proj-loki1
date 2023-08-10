@@ -51,8 +51,7 @@ export const fetchData = async (data) => {
       temperature: 0.7,
     };
     const headers = {
-      Authorization:
-        "Bearer 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",
+      Authorization: `Bearer ${process.env.REACT_APP_GPT_KEY}`,
       "Content-Type": "application/json",
     };
     let response = await axios.post(url, jsonData, { headers });
