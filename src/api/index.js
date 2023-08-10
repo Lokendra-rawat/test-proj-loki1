@@ -22,26 +22,21 @@ export const fetchData = async (data) => {
             1. push-ups
             2. Squats
             3. Plank
-            
-            return the response in json format like this please provide instructions also according the the data provided
+
+            in each exercise i want four data points in an object
+
+            name: [exercise_name]
+            sets: [no_of_sets]
+            repetitions: [no_of_repetitions]
+            instructions: [detailed instructions on how to perform the exercise]
+
+            return the response in json format like this
           
             [
               {
-                name: "Push-ups",
-                sets: 3,
-                repetitions: 10,
-                instructions,
-              },
-              {
-                name: "Squats",
-                sets: 4,
-                repetitions: 12,
-                instructions,
-              },
-              {
-                name: "Plank",
-                sets: 2,
-                repetitions: 30,
+                name,
+                sets,
+                repetitions,
                 instructions,
               },
             ];
